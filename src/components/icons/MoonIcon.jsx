@@ -2,7 +2,7 @@ const MoonIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      class="icon icon-tabler icon-tabler-moon"
+      className="icon icon-tabler icon-tabler-moon"
       width="24"
       height="24"
       viewBox="0 0 24 24"
