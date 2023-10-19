@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.logo, .intro-text, .intro-text-paragraph{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
