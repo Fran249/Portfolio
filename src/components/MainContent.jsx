@@ -1,5 +1,9 @@
 import { FirstArticle } from "../components/FirstArticle";
 import { SecondArticle } from "../components/SecondArticle";
+import { AboutMe } from "./AboutMe";
+import { FooterComp } from "./FooterComp";
+import { FourthArticle } from "./FourthArticle";
+import { ThirdArticle } from "./ThirdArticle";
 const bckgImg = "backsect1.png";
 const MainContent = () => {
   return (
@@ -14,6 +18,10 @@ const MainContent = () => {
     >
       <FirstArticle />
       <SecondArticle />
+      <ThirdArticle/>
+      <FourthArticle/>
+      <AboutMe/>
+      <FooterComp/>
     </section>
   );
 };

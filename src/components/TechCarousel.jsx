@@ -53,7 +53,7 @@ const TechCarousel = () => {
  
   return (
     <div
-      className="w-56 h-[250px] rounded-lg relative flex justify-center items-center animate-fade-right animate-duration-1000 animate-delay-[600ms] "
+      className="w-56 h-[250px] rounded-lg relative flex justify-center items-center animate-fade-right animate-duration-1000 animate-delay-[1200ms] "
       style={{ color: "white" }}
     >
       <AutoplaySlider

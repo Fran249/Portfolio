@@ -14,3 +14,9 @@
 .awssld__timer {
     background-color: transparent;
 }
+.about-me{
+    font-family: 'Oswald', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}

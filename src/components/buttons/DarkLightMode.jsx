@@ -23,7 +23,7 @@ const DarkLightMode = () => {
     " transform translate-x-[21px] sm:transform sm:translate-x-[24px]";
 
   return (
-    <button className="mt-2 mr-10" onClick={handleChangeTheme}>
+    <button className=" mr-10" onClick={handleChangeTheme}>
       <div className="md:w-14 md:h-7 w-12 h-6 flex items-center shadow-neutral-950 shadow-md bg-purple-900 dark:bg-purple-400 dark:shadow-neutral-100 dark:shadow-md  rounded-full p-1 cursor-pointer">
         {/* Switch */}
         <div
