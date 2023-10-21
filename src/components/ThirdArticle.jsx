@@ -6,7 +6,7 @@ import { CssIcon } from "./icons/CssIcon";
 const ThirdArticle = () => {
   return (
     <article className="w-screen h-screen flex justify-between flex-wrap">
-      <div className="flex w-1/2  justify-center items-center">
+      <div className="flex w-3/4 sm:w-1/2 mx-auto sm:mx-0  justify-center items-center order-2 sm:order-1">
         <div className=" grid grid-cols-1 place-items-center gap-[25px] backdrop-blur-3xl rounded-lg py-10 border-[1px] border-neutral-100 ">
           <h3 className=" bg-clip-text text-transparent intro-text text-2xl bg-gradient-to-b from-neutral-950  to-neutral-800  dark:from-white dark:to-neutral-800">
             Mucho Gusto
@@ -22,18 +22,18 @@ const ThirdArticle = () => {
           </div>
         </div>
       </div>
-      <div className="mockup flex justify-center items-center relative w-1/2 ">
+      <div className="mockup flex justify-center items-center relative w-full sm:w-1/2 order-1 sm:order-2">
         <img
-          className="rounded-lg  z-10 -translate-x-56 -translate-y-10   object-cover object-center"
+          className="rounded-lg w-full sm:w-[500px]  z-10 -translate-x-20 sm:-translate-x-56 -translate-y-10   object-cover object-center"
           src="./MuchoGustoMobile.png"
           alt="Web de CXP"
-          width={550}
+
         />
         <img
-          className="rounded-lg  absolute z-5  object-cover object-center"
+          className="rounded-lg w-full  absolute z-5  object-cover object-center"
           src="./MuchoGustoWeb.png"
           alt="Web de CXP"
-          width={550}
+
         />
       </div>
     </article>

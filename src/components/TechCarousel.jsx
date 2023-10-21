@@ -64,6 +64,7 @@ const TechCarousel = () => {
         cancelOnInteraction={true} // should stop playing on user interaction
         interval={2500}
         bullets={false}
+        mobileTouch={false}
       >
           {
             icons.map((item)=>{

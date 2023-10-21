@@ -4,8 +4,8 @@ import { LinkedinIcon } from "./icons/LinkedinIcon";
 
 const FirstArticle = () => {
   return (
-    <article className=" w-full h-screen flex justify-around flex-wrap">
-      <aside className="flex flex-col justify-center items-center">
+    <article className=" w-full h-screen flex justify-around flex-wrap" id="inicio">
+      <aside className="flex flex-col justify-center items-center w-full sm:w-1/2">
         <p className="intro-text-paragraph text-black text-center text-xl dark:text-white animate-fade-right animate-duration-1000 animate-delay-400">
           Im a
         </p>
@@ -33,7 +33,7 @@ const FirstArticle = () => {
           </a>
         </footer>
       </aside>
-      <aside className=" flex justify-center items-center">
+      <aside className=" flex justify-center items-center w-full sm:w-1/2">
         <TechCarousel />
       </aside>
     </article>

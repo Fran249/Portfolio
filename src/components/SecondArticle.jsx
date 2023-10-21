@@ -6,12 +6,12 @@ import { CssIcon } from "./icons/CssIcon";
 const SecondArticle = () => {
   return (
     <article className="w-screen h-screen flex justify-between flex-wrap" id="proyects">
-      <div className="mockup flex justify-center items-center relative w-1/2 ">
+      <div className="mockup flex justify-center items-center flex-wrap relative w-full sm:w-1/2 ">
         <img
-          className="rounded-lg  z-10 translate-x-40 -translate-y-10   object-cover object-center"
+          className="rounded-lg w-full sm:w-[500px] z-10 -translate-x-20 sm:translate-x-40 sm:-translate-y-10   object-cover object-center"
           src="./Mobile.png"
           alt="Web de CXP"
-          width={550}
+          
         />
         <img
           className="rounded-lg  absolute z-5  object-cover object-center"
@@ -20,10 +20,10 @@ const SecondArticle = () => {
           width={550}
         />
       </div>
-      <div className="flex w-1/2  justify-center items-center">
+      <div className="flex w-full sm:w-1/2  justify-center items-center">
         <div className=" w-4/5 grid grid-cols-1 place-items-center gap-[25px] backdrop-blur-3xl rounded-lg py-10 border-[1px] border-neutral-100 ">
           <h3 className=" bg-clip-text text-transparent intro-text text-2xl bg-gradient-to-b from-black  to-neutral-800 dark:from-white dark:to-neutral-800">CXP Chihuido Exploration</h3>
-          <p className="text-lg h-24 text-center w-1/2 text-neutral-700 dark:text-neutral-300">
+          <p className="text-lg h-24 text-center w-full px-3 sm:w-1/2 sm:px-0 text-neutral-700 dark:text-neutral-300">
             A modern landing page for a mining company. With Admin Panel to
             add/remove content
           </p>

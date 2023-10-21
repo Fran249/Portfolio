@@ -49,7 +49,7 @@ const FooterComp = () => {
                 <span className="block uppercase text-neutral-300 text-sm font-semibold mb-2">
                   Or Contact Me
                 </span>
-                <ul className="list-unstyled ">
+                <ul className="list-unstyled flex gap-10 sm:block ">
                   <li className="mt-2">
                     <a className=" block w-4" href="https://wa.me/+5492284386173">
                       <WhatsAppIcon width={30} height={20} color={"white"} />

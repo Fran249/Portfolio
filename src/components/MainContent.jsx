@@ -3,6 +3,7 @@ import { SecondArticle } from "../components/SecondArticle";
 import { AboutMe } from "./AboutMe";
 import { FooterComp } from "./FooterComp";
 import { FourthArticle } from "./FourthArticle";
+import { NavBar } from "./NavBar";
 import { ThirdArticle } from "./ThirdArticle";
 const bckgImg = "backsect1.png";
 const MainContent = () => {
@@ -16,6 +17,7 @@ const MainContent = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
+      <NavBar/>
       <FirstArticle />
       <SecondArticle />
       <ThirdArticle/>

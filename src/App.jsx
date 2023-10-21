@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <main className="transition-colors duration-100">
-        <NavBar/>
+
         <MainContent/>
       </main>
     </>
