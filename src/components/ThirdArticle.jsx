@@ -2,6 +2,8 @@ import { VueIcon } from "./icons/VueIcon";
 import { FirebaseIcon } from "./icons/FirebaseIcon";
 import { JsIcon } from "./icons/JsIcon";
 import { CssIcon } from "./icons/CssIcon";
+import { GitHubIcon } from "./icons/GitHubIcon";
+import { ExternalLinkIcon } from "./icons/ExternalLinkIcon";
 
 const ThirdArticle = () => {
   return (
@@ -14,6 +16,20 @@ const ThirdArticle = () => {
           <p className="text-lg h-24 text-center w-1/2 text-neutral-900  dark:text-neutral-300">
             An E-commerce for a bakery with stock/image management
           </p>
+          <div className="flex justify-center items-center gap-10">
+            <a
+              href="https://github.com/Fran249/Mucho-gusto"
+              className="hover:translate-y-[-2px] transition-transform active:translate-y-[2px]"
+            >
+              <GitHubIcon tailwindClass={"w-6 h-6 text-white"} />
+            </a>
+            <a
+              href="https://prueba-auth-vuex-router.web.app/"
+              className="hover:translate-y-[-2px] transition-transform active:translate-y-[2px]"
+            >
+              <ExternalLinkIcon color={"white"} />
+            </a>
+          </div>
           <div className="flex justify-between items-center w-52 gap">
             <VueIcon color={"white"} width={25} height={25} />
             <FirebaseIcon color={"white"} width={25} height={25} />

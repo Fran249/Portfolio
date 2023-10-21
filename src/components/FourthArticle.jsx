@@ -1,6 +1,8 @@
 import { VueIcon } from "./icons/VueIcon";
 import { JsIcon } from "./icons/JsIcon";
 import { CssIcon } from "./icons/CssIcon";
+import { GitHubIcon } from "./icons/GitHubIcon";
+import { ExternalLinkIcon } from "./icons/ExternalLinkIcon";
 
 const FourthArticle = () => {
   return (
@@ -27,6 +29,20 @@ const FourthArticle = () => {
           <p className="text-lg h-24 text-center w-1/2 text-neutral-700 dark:text-neutral-300">
             A modern landing page for a law firm
           </p>
+          <div className="flex justify-center items-center gap-10">
+            <a
+              href="https://estudio-juridico-beta.web.app/"
+              className="hover:translate-y-[-2px] transition-transform active:translate-y-[2px]"
+            >
+              <GitHubIcon tailwindClass={"w-6 h-6 text-white"} />
+            </a>
+            <a
+              href="https://github.com/Fran249/Estudio-juridico"
+              className="hover:translate-y-[-2px] transition-transform active:translate-y-[2px]"
+            >
+              <ExternalLinkIcon color={"white"} />
+            </a>
+          </div>
           <div className="flex justify-between items-center w-52 gap">
             <VueIcon color={"white"} width={25} height={25} />
             <JsIcon color={"white"} width={25} height={25} />
