@@ -41,13 +41,13 @@ const ThirdArticle = () => {
       <div className="mockup flex mt-36 md:mt-0 justify-center items-center relative w-full md:w-1/2 order-1 md:order-2">
         <img
           className="rounded-lg w-full md:w-[500px]  z-10 -translate-x-20 md:-translate-x-56 -translate-y-10   object-cover object-center"
-          src="./MuchoGustoMobile.png"
+          src="./MuchoGustoMobile.webp"
           alt="Web de CXP"
 
         />
         <img
           className="rounded-lg w-full   absolute z-5  object-cover object-center"
-          src="./MuchoGustoWeb.png"
+          src="./MuchoGustoWeb.webp"
           alt="Web de CXP"
 
         />

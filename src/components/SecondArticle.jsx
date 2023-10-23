@@ -14,12 +14,12 @@ const SecondArticle = () => {
       <div className="mockup flex justify-center items-center flex-wrap relative w-full md:w-1/2 ">
         <img
           className="rounded-lg w-full md:w-[500px] z-10 -translate-x-20 md:translate-x-40 md:-translate-y-10   object-cover object-center"
-          src="./Mobile.png"
+          src="./Mobile.webp"
           alt="Web de CXP"
         />
         <img
           className="rounded-lg md:w-[500px] absolute z-5  object-cover object-center"
-          src="./WebMockup.png"
+          src="./WebMockup.webp"
           alt="Web de CXP"
           
         />

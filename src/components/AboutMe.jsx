@@ -16,7 +16,7 @@ const AboutMe = () => {
         <div className="w-full flex flex-col items-center gap-16">
           <div className="mask mask_type3 mask_type3-a1 page__tile">
             <img
-              src="./avatar-me.jpg"
+              src="./avatar-me.webp"
               className="mask__img w-[200px] md:w-[200px] h-[200px] md:h-[200px] object-cover"
               loading="lazy"
               decoding="async"

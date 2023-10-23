@@ -10,13 +10,13 @@ const FourthArticle = () => {
       <div className="mockup flex justify-center items-center relative w-full md:w-1/2 mt-36 md:mt-0 ">
         <img
           className="rounded-lg w-full md:w-[500px] z-10 -translate-x-20 md:translate-x-40 -translate-y-10   object-cover object-center"
-          src="./EstudioMobile.png"
+          src="./EstudioMobile.webp"
           alt="Web de CXP"
          
         />
         <img
           className="rounded-lg   absolute z-5  object-cover object-center"
-          src="./EstudioWeb.png"
+          src="./EstudioWeb.webp"
           alt="Web de CXP"
        
         />

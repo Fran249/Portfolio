@@ -5,7 +5,7 @@ import { FooterComp } from "./FooterComp";
 import { FourthArticle } from "./FourthArticle";
 import { NavBar } from "./NavBar";
 import { ThirdArticle } from "./ThirdArticle";
-const bckgImg = "backsect1.png";
+const bckgImg = "backsect1.webp";
 const MainContent = () => {
   return (
     <section
