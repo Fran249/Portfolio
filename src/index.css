@@ -2,21 +2,103 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.logo, .intro-text, .intro-text-paragraph{
-    font-family: 'Bebas Neue', sans-serif;
+.logo,
+.intro-text,
+.intro-text-paragraph {
+  font-family: "Bebas Neue", sans-serif;
 }
-
-.awssld__content{
-    background-color: transparent;
+.me-text {
+  text-orientation: mixed;
+  writing-mode: vertical-lr;
+}
+.awssld__content {
+  background-color: transparent;
 }
 
 .awssld__timer {
-    background-color: transparent;
+  background-color: transparent;
 }
-.about-me{
-    font-family: 'Oswald', sans-serif;
+.about-me {
+  font-family: "Oswald", sans-serif;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+.img-div {
+  --maskAnimationDuration: 0.5s;
+}
+
+.mask {
+  --maskStrokeColor: #5e4a99;
+  --maskStrokeThickness: 5px;
+}
+.mask {
+  --uiMaskClipPath: var(--maskClipPath);
+
+  box-sizing: var(--maskBoxSizing, border-box);
+  display: var(--maskDisplay, inline-flex);
+  padding: var(--maskStrokeThickness, 3px);
+  clip-path: var(--uiMaskClipPath);
+  background-color: var(--maskStrokeColor, currentColor);
+}
+
+.mask__img {
+  max-width: 100%;
+  display: block;
+  clip-path: var(--uiMaskClipPath);
+  filter: grayscale(100%);
+}
+
+.mask,
+.mask__img {
+  transition: clip-path var(--maskAnimationDuration, 0.2s)
+    var(--maskAnimationTimingFunction, ease-out);
+}
+
+.mask_type3 {
+  --maskClipPath: polygon(
+    0 10%,
+    10% 10%,
+    10% 0,
+    90% 0,
+    90% 10%,
+    100% 10%,
+    100% 90%,
+    90% 90%,
+    90% 100%,
+    10% 100%,
+    10% 90%,
+    0 90%
+  );
+}
+
+.mask_type3-a1 {
+  --maskAnimationDuration: 0.5s;
+}
+.mask_type3:hover,
+.mask_type3:focus {
+  --maskClipPath: polygon(
+    90% 0,
+    100% 0,
+    100% 10%,
+    100% 90%,
+    100% 100%,
+    90% 100%,
+    10% 100%,
+    0 100%,
+    0 90%,
+    0 10%,
+    0 0,
+    10% 0
+  );
+}
+.mask_type3:hover .mask__img {
+  filter: none;
+}
+
+@media screen and (max-width: 768px) {
+  .me-text {
+    text-orientation: sideways;
+    writing-mode: horizontal-tb;
+  }
 }
