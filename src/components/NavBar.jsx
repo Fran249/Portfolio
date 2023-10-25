@@ -23,7 +23,6 @@ const NavBar = () => {
 
   return (
     <nav className={"fixed z-40 top-0 left-0 w-screen h-16 flex justify-between items-center " + (scrolling ? 'backdrop-blur-2xl' : ' backdrop-blur-0')}>
-      <LogoButton />
       <DarkLightMode />
     </nav>
   );
