@@ -1,5 +1,4 @@
 import { DarkLightMode } from "./buttons/DarkLightMode";
-import { LogoButton } from "./buttons/LogoButton";
 import { useState, useEffect } from "react";
 
 const NavBar = () => {
