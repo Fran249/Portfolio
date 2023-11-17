@@ -25,6 +25,7 @@ const ThirdArticle = () => {
             </a>
             <a
               href="https://prueba-auth-vuex-router.web.app/"
+              target="_blank"
               className="hover:translate-y-[-2px] transition-transform active:translate-y-[2px]"
             >
               <ExternalLinkIcon color={"white"} />

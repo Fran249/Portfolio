@@ -42,6 +42,7 @@ const SecondArticle = () => {
             </a>
             <a
               href="https://cxp-resources.com/"
+              target="_blank"
               className="hover:translate-y-[-2px] transition-transform active:translate-y-[2px]"
             >
               <ExternalLinkIcon color={"white"} />

@@ -37,7 +37,8 @@ const FourthArticle = () => {
               <GitHubIcon tailwindClass={"w-6 h-6 text-white"} />
             </a>
             <a
-              href="https://estudio-juridico-beta.web.app/"
+              href="https://estudiosampaolesi.com.ar/"
+              target="_blank"
               className="hover:translate-y-[-2px] transition-transform active:translate-y-[2px]"
             >
               <ExternalLinkIcon color={"white"} />
