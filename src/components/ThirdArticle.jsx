@@ -13,7 +13,7 @@ const ThirdArticle = () => {
           <h3 className=" bg-clip-text text-transparent intro-text text-2xl bg-gradient-to-b from-neutral-950  to-neutral-800  dark:from-white dark:to-neutral-800">
             Mucho Gusto
           </h3>
-          <p className="text-lg h-24 text-center w-1/2 text-neutral-900  dark:text-neutral-300">
+          <p className="text-lg min-h-full text-center w-1/2 text-neutral-900  dark:text-neutral-300">
             An E-commerce for a bakery with stock/image management
           </p>
           <div className="flex justify-center items-center gap-10">
